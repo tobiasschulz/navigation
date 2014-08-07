@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="Osmand" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <trk>
+    <trkseg>
+      <trkpt lat="42.1599045" lon="3.1109548">
+        <ele>73.0</ele>
+        <hdop>34.28250503540039</hdop>
+        <time>2012-07-24T19:57:59Z</time>
+        <extensions>
+          <speed>0.35393038392066956</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.1109548">
+        <ele>51.0</ele>
+        <hdop>48.97193145751953</hdop>
+        <time>2012-07-24T19:58:11Z</time>
+        <extensions>
+          <speed>0.26648736000061035</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1597214" lon="3.1109762">
+        <ele>48.0</ele>
+        <hdop>43.939048767089844</hdop>
+        <time>2012-07-24T19:58:17Z</time>
+        <extensions>
+          <speed>0.04577706754207611</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1596794" lon="3.1109762">
+        <ele>48.0</ele>
+        <hdop>42.67551803588867</hdop>
+        <time>2012-07-24T19:58:22Z</time>
+        <extensions>
+          <speed>0.07629510760307312</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1597862" lon="3.1109333">
+        <ele>56.0</ele>
+        <hdop>2.6907248497009277</hdop>
+        <time>2012-07-24T19:58:28Z</time>
+        <extensions>
+          <speed>0.21794243156909943</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

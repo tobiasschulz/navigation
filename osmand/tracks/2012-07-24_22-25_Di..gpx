@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="Osmand" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <trk>
+    <trkseg>
+      <trkpt lat="42.1612015" lon="3.108058">
+        <ele>81.0</ele>
+        <hdop>3.9115214347839355</hdop>
+        <time>2012-07-24T20:25:51Z</time>
+        <extensions>
+          <speed>1.8099799156188965</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1611824" lon="3.1080365">
+        <ele>74.0</ele>
+        <hdop>1.9416488409042358</hdop>
+        <time>2012-07-24T20:25:56Z</time>
+        <extensions>
+          <speed>1.6152235269546509</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

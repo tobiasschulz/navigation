@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="Osmand+" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <wpt lat="49.9133263" lon="8.6505527">
+    <name>Arheilgen Friedhof Tante Agnes</name>
+    <category>Zu Hause</category>
+  </wpt>
+  <wpt lat="50.1169853" lon="8.6981678">
+    <name>Krankenhaus Rot-Kreuz</name>
+    <category>Andere</category>
+  </wpt>
+  <wpt lat="50.2272151" lon="8.6153841">
+    <name>Bad Homburg Dr. Rau</name>
+    <category>Andere</category>
+  </wpt>
+  <wpt lat="50.2327469" lon="8.6073589">
+    <name>Bad Homburg Großer Parkplatz</name>
+    <category>Andere</category>
+  </wpt>
+  <wpt lat="50.2286911" lon="8.6804438">
+    <name>Zu Hause</name>
+    <category>Zu Hause</category>
+  </wpt>
+  <wpt lat="51.3845177" lon="1.3965726">
+    <name>Felix Gastfamilie England</name>
+    <category>Urlaub</category>
+  </wpt>
+  <wpt lat="42.1944109" lon="3.0823517">
+    <name>Tankstelle Sant Pere Pescador</name>
+    <category>Urlaub</category>
+  </wpt>
+  <wpt lat="42.1599045" lon="3.1109548">
+    <name>Ballena Alegre A43</name>
+    <category>Urlaub</category>
+  </wpt>
+  <wpt lat="42.1539948" lon="3.1123281">
+    <name>Las Dunas</name>
+    <category>Urlaub</category>
+  </wpt>
+  <wpt lat="41.7815399" lon="3.0360889">
+    <name>Sant Feliu Parkplatz</name>
+    <category>Urlaub</category>
+  </wpt>
+  <wpt lat="48.8021244" lon="7.8352215">
+    <name>Cora Haguenau</name>
+    <category>Urlaub</category>
+  </wpt>
+</gpx>

@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="Osmand" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <trk>
+    <trkseg>
+      <trkpt lat="42.1598625" lon="3.1110191">
+        <ele>69.0</ele>
+        <hdop>14.920121192932129</hdop>
+        <time>2012-07-25T09:55:40Z</time>
+        <extensions>
+          <speed>0.061036087572574615</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598511" lon="3.1109762">
+        <ele>73.0</ele>
+        <hdop>2.780287742614746</hdop>
+        <time>2012-07-25T09:55:46Z</time>
+        <extensions>
+          <speed>0.9710782170295715</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598511" lon="3.1109762">
+        <ele>65.0</ele>
+        <hdop>1.5620499849319458</hdop>
+        <time>2012-07-25T09:55:52Z</time>
+        <extensions>
+          <speed>0.3134605586528778</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598511" lon="3.1109762">
+        <ele>64.0</ele>
+        <hdop>1.4866068363189697</hdop>
+        <time>2012-07-25T09:55:58Z</time>
+        <extensions>
+          <speed>2.605229377746582</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598625" lon="3.1110191">
+        <ele>54.0</ele>
+        <hdop>1.6970562934875488</hdop>
+        <time>2012-07-25T09:56:03Z</time>
+        <extensions>
+          <speed>1.6909998655319214</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598625" lon="3.1110191">
+        <ele>54.0</ele>
+        <hdop>1.6278821229934692</hdop>
+        <time>2012-07-25T09:56:09Z</time>
+        <extensions>
+          <speed>0.5401349067687988</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598511" lon="3.1110191">
+        <ele>54.0</ele>
+        <hdop>1.4866068363189697</hdop>
+        <time>2012-07-25T09:56:15Z</time>
+        <extensions>
+          <speed>0.6105515360832214</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598396" lon="3.1110191">
+        <ele>53.0</ele>
+        <hdop>1.5620499849319458</hdop>
+        <time>2012-07-25T09:56:21Z</time>
+        <extensions>
+          <speed>1.139839768409729</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598167" lon="3.1110406">
+        <ele>50.0</ele>
+        <hdop>1.4866068363189697</hdop>
+        <time>2012-07-25T09:56:26Z</time>
+        <extensions>
+          <speed>1.730873465538025</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.111062">
+        <ele>49.0</ele>
+        <hdop>1.3453624248504639</hdop>
+        <time>2012-07-25T09:56:31Z</time>
+        <extensions>
+          <speed>1.2970168590545654</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.111062">
+        <ele>49.0</ele>
+        <hdop>1.6278821229934692</hdop>
+        <time>2012-07-25T09:56:37Z</time>
+        <extensions>
+          <speed>0.6298853158950806</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.111062">
+        <ele>49.0</ele>
+        <hdop>1.8384777307510376</hdop>
+        <time>2012-07-25T09:56:42Z</time>
+        <extensions>
+          <speed>0.6770948767662048</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.1110406">
+        <ele>51.0</ele>
+        <hdop>1.7691806554794312</hdop>
+        <time>2012-07-25T09:56:48Z</time>
+        <extensions>
+          <speed>1.6284315586090088</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.1110406">
+        <ele>51.0</ele>
+        <hdop>1.7029386758804321</hdop>
+        <time>2012-07-25T09:56:53Z</time>
+        <extensions>
+          <speed>0.5842431783676147</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.1110191">
+        <ele>52.0</ele>
+        <hdop>1.7029386758804321</hdop>
+        <time>2012-07-25T09:56:59Z</time>
+        <extensions>
+          <speed>0.8700318932533264</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.1109977">
+        <ele>55.0</ele>
+        <hdop>1.7691806554794312</hdop>
+        <time>2012-07-25T09:57:05Z</time>
+        <extensions>
+          <speed>0.2521204352378845</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598091" lon="3.1109977">
+        <ele>55.0</ele>
+        <hdop>1.7691806554794312</hdop>
+        <time>2012-07-25T09:57:10Z</time>
+        <extensions>
+          <speed>0.6013293862342834</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1597977" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.6970562934875488</hdop>
+        <time>2012-07-25T09:57:16Z</time>
+        <extensions>
+          <speed>0.949743926525116</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598167" lon="3.1109548">
+        <ele>56.0</ele>
+        <hdop>1.4866068363189697</hdop>
+        <time>2012-07-25T09:57:21Z</time>
+        <extensions>
+          <speed>1.2665907144546509</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598167" lon="3.1109548">
+        <ele>56.0</ele>
+        <hdop>1.3453624248504639</hdop>
+        <time>2012-07-25T09:57:27Z</time>
+        <extensions>
+          <speed>0.16003797948360443</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>56.0</ele>
+        <hdop>1.3453624248504639</hdop>
+        <time>2012-07-25T09:57:33Z</time>
+        <extensions>
+          <speed>0.32043948769569397</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>56.0</ele>
+        <hdop>1.3453624248504639</hdop>
+        <time>2012-07-25T09:57:38Z</time>
+        <extensions>
+          <speed>0.4911414086818695</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>56.0</ele>
+        <hdop>1.2727922201156616</hdop>
+        <time>2012-07-25T09:57:44Z</time>
+        <extensions>
+          <speed>0.7569767236709595</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.2041594982147217</hdop>
+        <time>2012-07-25T09:57:50Z</time>
+        <extensions>
+          <speed>0.6779540777206421</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.1313709020614624</hdop>
+        <time>2012-07-25T09:57:55Z</time>
+        <extensions>
+          <speed>0.6376007795333862</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.1313709020614624</hdop>
+        <time>2012-07-25T09:58:01Z</time>
+        <extensions>
+          <speed>0.5296881198883057</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.2041594982147217</hdop>
+        <time>2012-07-25T09:58:07Z</time>
+        <extensions>
+          <speed>0.33604511618614197</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.0630146265029907</hdop>
+        <time>2012-07-25T09:58:12Z</time>
+        <extensions>
+          <speed>0.17860226333141327</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.1313709020614624</hdop>
+        <time>2012-07-25T09:58:18Z</time>
+        <extensions>
+          <speed>0.6278489828109741</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.1598282" lon="3.1109548">
+        <ele>57.0</ele>
+        <hdop>1.3453624248504639</hdop>
+        <time>2012-07-25T09:58:24Z</time>
+        <extensions>
+          <speed>0.6181316375732422</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
