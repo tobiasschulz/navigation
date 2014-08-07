@@ -1,0 +1,331 @@
+<mycar version="2">
+	<preferences>
+		<speedUnit>kmh</speedUnit>
+		<start_app_on_boot_b>true</start_app_on_boot_b>
+		<notificationTime>12:00</notificationTime>
+		<notificationDay>2</notificationDay>
+		<enable_distance_unit_per_car_b>false</enable_distance_unit_per_car_b>
+		<fuelPriceUnit>currencyPerLitre</fuelPriceUnit>
+		<notificationSnooze>60</notificationSnooze>
+		<fuelQuantityUnit>litres</fuelQuantityUnit>
+		<chart_discard_partial_refuels_b>false</chart_discard_partial_refuels_b>
+		<odoLastDigitCutCount>0</odoLastDigitCutCount>
+		<dateFormat>dd.mm.yyyy</dateFormat>
+		<data_backup_history_count>20</data_backup_history_count>
+		<usage_stats_b>true</usage_stats_b>
+		<refuelDistanceType>trip</refuelDistanceType>
+		<fuelPriceDecimalDigits>3</fuelPriceDecimalDigits>
+		<fuelQuantityDecimalDigits>2</fuelQuantityDecimalDigits>
+		<use_automatic_backup_b>true</use_automatic_backup_b>
+		<prefsCurrency>EUR</prefsCurrency>
+		<use_fuel_octane_b>true</use_fuel_octane_b>
+		<use_notifications_b>true</use_notifications_b>
+		<chartsTheme>light</chartsTheme>
+		<automatic_backup_frequency_type>ON_APP_EXIT</automatic_backup_frequency_type>
+		<custom_locale>en_US</custom_locale>
+		<dual_fuel_efficiency_algorithm>mixed_fuel_usage</dual_fuel_efficiency_algorithm>
+		<consumptionUnit>litresPer100km</consumptionUnit>
+		<distanceUnit>kms</distanceUnit>
+		<applicationTheme>light</applicationTheme>
+	</preferences>
+	<FuelSubtype>
+		<code>95</code>
+		<parent_id>1</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>98</code>
+		<parent_id>1</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>30/70</code>
+		<parent_id>2</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>70/30</code>
+		<parent_id>2</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>30/70</code>
+		<parent_id>3</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>70/30</code>
+		<parent_id>3</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>Diesel</code>
+		<parent_id>4</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E10</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E20</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E25</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E85</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>Ethanol</code>
+		<parent_id>6</parent_id>
+	</FuelSubtype>
+	<car>
+		<name>Ford Fiesta</name>
+		<price>2400</price>
+		<initial_cost>0</initial_cost>
+		<buyDate>2011-06-19</buyDate>
+		<init_mileage>70822</init_mileage>
+		<purchase_init_mileage>55000</purchase_init_mileage>
+		<tank_init_full>true</tank_init_full>
+		<tank_size>35</tank_size>
+		<fuel_type>0</fuel_type>
+		<plateNumber>HG-TS 186</plateNumber>
+		<made>Ford</made>
+		<model>Fiesta</model>
+		<year>1998</year>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</car>
+	<bill_type>
+		<name>KFZ-Steuer</name>
+	</bill_type>
+	<bill_type>
+		<name>KFZ-Versicherung</name>
+	</bill_type>
+	<bill_type>
+		<name>Pflege/Reinigung</name>
+		<desc>Autowäsche, Reinigungsmittel</desc>
+	</bill_type>
+	<bill_type>
+		<name>Sonstiges</name>
+	</bill_type>
+	<service_category>
+		<name>Grosse Wartung</name>
+		<description>The Major service will add check adjust Brakes and Change Spark Plugs (Petrol), change the Air Filter, Fuel Filter if applicable etc</description>
+	</service_category>
+	<service_category>
+		<name>Reifen wechseln</name>
+		<description>Reifenwechsel: Neue Reifen, Sommerreifen/Winterreifen usw.</description>
+	</service_category>
+	<service_category>
+		<name>Wartung</name>
+		<description>Ölwechsel , usw.</description>
+	</service_category>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-13 04:02</refuelDate>
+		<quantity>18.71</quantity>
+		<distance>251</distance>
+		<price>1.779</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-15 00:57</refuelDate>
+		<quantity>10.89</quantity>
+		<distance>167</distance>
+		<price>1.689</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-25 17:37</refuelDate>
+		<quantity>11.66</quantity>
+		<distance>373.5</distance>
+		<price>1.714</price>
+		<refuel_type>6</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-25 19:30</refuelDate>
+		<quantity>24.08</quantity>
+		<distance>125.5</distance>
+		<price>1.599</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-03 05:00</refuelDate>
+		<quantity>18.01</quantity>
+		<distance>280.1</distance>
+		<price>1.562</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-14 18:26</refuelDate>
+		<quantity>22.02</quantity>
+		<distance>273.9</distance>
+		<price>1.619</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-22 15:12</refuelDate>
+		<quantity>31.86</quantity>
+		<distance>402.1</distance>
+		<price>1.609</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-29 09:34</refuelDate>
+		<quantity>26.52</quantity>
+		<distance>357.9</distance>
+		<price>1.599</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-02 20:28</refuelDate>
+		<quantity>24.59</quantity>
+		<distance>377</distance>
+		<price>1.569</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-09 21:58</refuelDate>
+		<quantity>29.71</quantity>
+		<distance>409</distance>
+		<price>1.649</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-17 13:00</refuelDate>
+		<quantity>30.49</quantity>
+		<distance>407</distance>
+		<price>1.619</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-25 20:04</refuelDate>
+		<quantity>30.01</quantity>
+		<distance>434</distance>
+		<price>1.649</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-02 17:30</refuelDate>
+		<quantity>28.33</quantity>
+		<distance>365</distance>
+		<price>1.56</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-09 18:40</refuelDate>
+		<quantity>26.31</quantity>
+		<distance>355</distance>
+		<price>1.59</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-15 19:02</refuelDate>
+		<quantity>31.29</quantity>
+		<distance>429</distance>
+		<price>1.55</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-25 10:14</refuelDate>
+		<quantity>24.37</quantity>
+		<distance>356</distance>
+		<price>1.58</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+	</refuel>
+</mycar>
