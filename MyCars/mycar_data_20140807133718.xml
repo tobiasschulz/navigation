@@ -1,0 +1,1251 @@
+<mycar version="2">
+	<preferences>
+		<fuelQuantityDecimalDigits>2</fuelQuantityDecimalDigits>
+		<refuelDistanceType>trip</refuelDistanceType>
+		<backup_folder_name>mycar</backup_folder_name>
+		<use_automatic_backup_b>true</use_automatic_backup_b>
+		<automatic_backup_frequency_type>ON_APP_EXIT</automatic_backup_frequency_type>
+		<use_notifications_b>true</use_notifications_b>
+		<dual_fuel_efficiency_algorithm>mixed_fuel_usage</dual_fuel_efficiency_algorithm>
+		<chartsTheme>holo.light</chartsTheme>
+		<consumptionUnit>litresPer100km</consumptionUnit>
+		<data_backup_history_count>20</data_backup_history_count>
+		<notificationDay>2</notificationDay>
+		<applicationTheme>holo.light</applicationTheme>
+		<notificationTime>12:00</notificationTime>
+		<use_custom_locale_b>false</use_custom_locale_b>
+		<start_app_on_boot_b>true</start_app_on_boot_b>
+		<use_fuel_station_b>false</use_fuel_station_b>
+		<dateFormat>dd.mm.yyyy</dateFormat>
+		<use_google_backup_b>true</use_google_backup_b>
+		<always_use_system_keypad_b>false</always_use_system_keypad_b>
+		<partial_efficiency_tanksize_factor>5</partial_efficiency_tanksize_factor>
+		<notificationSnooze>60</notificationSnooze>
+		<cngUnit>kg</cngUnit>
+		<fxrate_download_mode>manual</fxrate_download_mode>
+		<fuelPriceUnit>currencyPerLitre</fuelPriceUnit>
+		<speedUnit>kmh</speedUnit>
+		<usage_stats_b>true</usage_stats_b>
+		<use_dropbox_b>true</use_dropbox_b>
+		<prefsCurrency>EUR</prefsCurrency>
+		<distanceUnit>kms</distanceUnit>
+		<custom_locale>en_US</custom_locale>
+		<use_fuel_octane_b>true</use_fuel_octane_b>
+		<is_dropbox_authenticated_b>true</is_dropbox_authenticated_b>
+		<fxrate_spread>2</fxrate_spread>
+		<fuelQuantityUnit>litres</fuelQuantityUnit>
+		<enable_distance_unit_per_car_b>false</enable_distance_unit_per_car_b>
+		<fuelPriceDecimalDigits>3</fuelPriceDecimalDigits>
+		<chart_discard_partial_refuels_b>false</chart_discard_partial_refuels_b>
+		<odoLastDigitCutCount>0</odoLastDigitCutCount>
+	</preferences>
+	<FuelSubtype>
+		<code>95</code>
+		<parent_id>1</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>98</code>
+		<parent_id>1</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>30/70</code>
+		<parent_id>2</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>70/30</code>
+		<parent_id>2</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>30/70</code>
+		<parent_id>3</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>70/30</code>
+		<parent_id>3</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>Diesel</code>
+		<parent_id>4</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E10</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E20</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E25</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>E85</code>
+		<parent_id>5</parent_id>
+	</FuelSubtype>
+	<FuelSubtype>
+		<code>Ethanol</code>
+		<parent_id>6</parent_id>
+	</FuelSubtype>
+	<car>
+		<name>Ford Fiesta</name>
+		<price>2400</price>
+		<buyDate>2011-06-19</buyDate>
+		<init_mileage>70822</init_mileage>
+		<purchase_init_mileage>55000</purchase_init_mileage>
+		<tank_init_full>true</tank_init_full>
+		<tank_size>35</tank_size>
+		<fuel_type>0</fuel_type>
+		<plateNumber>HG-TS 186</plateNumber>
+		<made>Ford</made>
+		<model>Fiesta</model>
+		<year>1998</year>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<display_rank>0</display_rank>
+		<price_pos_curr>EUR</price_pos_curr>
+		<price_pos_curr_rate>1.0</price_pos_curr_rate>
+		<price_cost_def_curr>2400.0</price_cost_def_curr>
+		<sell_price_pos_curr>EUR</sell_price_pos_curr>
+		<sell_price_pos_curr_rate>1.0</sell_price_pos_curr_rate>
+		<sell_price_cost_def_curr>0.0</sell_price_cost_def_curr>
+		<init_cost_pos_curr>EUR</init_cost_pos_curr>
+		<init_cost_pos_curr_rate>1.0</init_cost_pos_curr_rate>
+		<init_cost_cost_def_curr>0.0</init_cost_cost_def_curr>
+	</car>
+	<bill_type>
+		<name>KFZ-Steuer</name>
+	</bill_type>
+	<bill_type>
+		<name>KFZ-Versicherung</name>
+	</bill_type>
+	<bill_type>
+		<name>Pflege/Reinigung</name>
+		<desc>Autowäsche, Reinigungsmittel</desc>
+	</bill_type>
+	<bill_type>
+		<name>Sonstiges</name>
+	</bill_type>
+	<service_category>
+		<name>Grosse Wartung</name>
+		<description>The Major service will add check adjust Brakes and Change Spark Plugs (Petrol), change the Air Filter, Fuel Filter if applicable etc</description>
+	</service_category>
+	<service_category>
+		<name>Reifen wechseln</name>
+		<description>Reifenwechsel: Neue Reifen, Sommerreifen/Winterreifen usw.</description>
+	</service_category>
+	<service_category>
+		<name>Wartung</name>
+		<description>Ölwechsel , usw.</description>
+	</service_category>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-13 04:02</refuelDate>
+		<quantity>18.71</quantity>
+		<distance>251</distance>
+		<price>1.779</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>33.28509</cost_def_curr>
+		<cost_pos_curr>33.28509</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-15 00:57</refuelDate>
+		<quantity>10.89</quantity>
+		<distance>167</distance>
+		<price>1.689</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>18.39321</cost_def_curr>
+		<cost_pos_curr>18.39321</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-25 17:37</refuelDate>
+		<quantity>11.66</quantity>
+		<quantity_extra_info>0.5</quantity_extra_info>
+		<distance>373.5</distance>
+		<price>1.714</price>
+		<refuel_type>6</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>19.98524</cost_def_curr>
+		<cost_pos_curr>19.98524</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-09-25 19:30</refuelDate>
+		<quantity>24.08</quantity>
+		<distance>125.5</distance>
+		<price>1.599</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>38.503919999999994</cost_def_curr>
+		<cost_pos_curr>38.503919999999994</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-03 05:00</refuelDate>
+		<quantity>18.01</quantity>
+		<distance>280.1</distance>
+		<price>1.562</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>28.131620000000005</cost_def_curr>
+		<cost_pos_curr>28.131620000000005</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-14 18:26</refuelDate>
+		<quantity>22.02</quantity>
+		<distance>273.9</distance>
+		<price>1.619</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>35.65038</cost_def_curr>
+		<cost_pos_curr>35.65038</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-22 15:12</refuelDate>
+		<quantity>31.86</quantity>
+		<distance>402.1</distance>
+		<price>1.609</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>51.26274</cost_def_curr>
+		<cost_pos_curr>51.26274</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-10-29 09:34</refuelDate>
+		<quantity>26.52</quantity>
+		<distance>357.9</distance>
+		<price>1.599</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>42.40548</cost_def_curr>
+		<cost_pos_curr>42.40548</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-02 20:28</refuelDate>
+		<quantity>24.59</quantity>
+		<distance>377</distance>
+		<price>1.569</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>38.58171</cost_def_curr>
+		<cost_pos_curr>38.58171</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-09 21:58</refuelDate>
+		<quantity>29.71</quantity>
+		<distance>409</distance>
+		<price>1.649</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>48.99179</cost_def_curr>
+		<cost_pos_curr>48.99179</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-17 13:00</refuelDate>
+		<quantity>30.49</quantity>
+		<distance>407</distance>
+		<price>1.619</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>49.36331</cost_def_curr>
+		<cost_pos_curr>49.36331</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-11-25 20:04</refuelDate>
+		<quantity>30.01</quantity>
+		<distance>434</distance>
+		<price>1.649</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>49.48649</cost_def_curr>
+		<cost_pos_curr>49.48649</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-02 17:30</refuelDate>
+		<quantity>28.33</quantity>
+		<distance>365</distance>
+		<price>1.56</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>44.1948</cost_def_curr>
+		<cost_pos_curr>44.1948</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-09 18:40</refuelDate>
+		<quantity>26.31</quantity>
+		<distance>355</distance>
+		<price>1.59</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>41.8329</cost_def_curr>
+		<cost_pos_curr>41.8329</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-15 19:02</refuelDate>
+		<quantity>31.29</quantity>
+		<distance>429</distance>
+		<price>1.55</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>48.4995</cost_def_curr>
+		<cost_pos_curr>48.4995</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2012-12-25 10:14</refuelDate>
+		<quantity>24.37</quantity>
+		<distance>356</distance>
+		<price>1.58</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>38.5046</cost_def_curr>
+		<cost_pos_curr>38.5046</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-01-06 17:50</refuelDate>
+		<quantity>18.64</quantity>
+		<distance>252</distance>
+		<price>1.529</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>28.50056</cost_def_curr>
+		<cost_pos_curr>28.50056</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-01-14 11:27</refuelDate>
+		<quantity>21.6</quantity>
+		<distance>354</distance>
+		<price>1.609</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>34.754400000000004</cost_def_curr>
+		<cost_pos_curr>34.754400000000004</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-01-20 03:22</refuelDate>
+		<quantity>25</quantity>
+		<distance>339</distance>
+		<price>1.609</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>40.225</cost_def_curr>
+		<cost_pos_curr>40.225</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-01-21 13:00</refuelDate>
+		<quantity>14.65</quantity>
+		<distance>215</distance>
+		<price>1.589</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>23.27885</cost_def_curr>
+		<cost_pos_curr>23.27885</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-01-25 07:32</refuelDate>
+		<quantity>22.3</quantity>
+		<distance>329</distance>
+		<price>1.529</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>34.0967</cost_def_curr>
+		<cost_pos_curr>34.0967</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-02-03 20:33</refuelDate>
+		<quantity>27.81</quantity>
+		<distance>403</distance>
+		<price>1.674</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>46.55394</cost_def_curr>
+		<cost_pos_curr>46.55394</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-02-11 11:15</refuelDate>
+		<quantity>24.31</quantity>
+		<distance>299</distance>
+		<price>1.609</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>39.11479</cost_def_curr>
+		<cost_pos_curr>39.11479</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-02-16 06:40</refuelDate>
+		<quantity>29.32</quantity>
+		<distance>405</distance>
+		<price>1.569</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>46.00308</cost_def_curr>
+		<cost_pos_curr>46.00308</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-02-24 06:41</refuelDate>
+		<quantity>22.95</quantity>
+		<distance>330</distance>
+		<price>1.569</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>36.00855</cost_def_curr>
+		<cost_pos_curr>36.00855</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-03-02 06:43</refuelDate>
+		<quantity>24.7</quantity>
+		<distance>409</distance>
+		<price>1.539</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>38.013299999999994</cost_def_curr>
+		<cost_pos_curr>38.013299999999994</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-03-12 00:00</refuelDate>
+		<quantity>21.5</quantity>
+		<distance>300</distance>
+		<price>1.56</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>33.54</cost_def_curr>
+		<cost_pos_curr>33.54</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-03-17 00:00</refuelDate>
+		<quantity>30</quantity>
+		<distance>423</distance>
+		<price>1.56</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>46.800000000000004</cost_def_curr>
+		<cost_pos_curr>46.800000000000004</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-03-30 09:59</refuelDate>
+		<quantity>26.95</quantity>
+		<distance>354</distance>
+		<price>1.619</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>43.63205</cost_def_curr>
+		<cost_pos_curr>43.63205</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-04-08 12:01</refuelDate>
+		<quantity>26.58</quantity>
+		<distance>391</distance>
+		<price>1.679</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>44.62782</cost_def_curr>
+		<cost_pos_curr>44.62782</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-04-13 23:36</refuelDate>
+		<quantity>26.33</quantity>
+		<distance>337</distance>
+		<price>1.519</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>39.99527</cost_def_curr>
+		<cost_pos_curr>39.99527</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-04-28 19:00</refuelDate>
+		<quantity>29.43</quantity>
+		<distance>375</distance>
+		<price>1.529</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>44.99847</cost_def_curr>
+		<cost_pos_curr>44.99847</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-05-04 16:46</refuelDate>
+		<quantity>29.04</quantity>
+		<distance>477</distance>
+		<price>1.619</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>47.01576</cost_def_curr>
+		<cost_pos_curr>47.01576</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-05-12 15:08</refuelDate>
+		<quantity>29.27</quantity>
+		<distance>434</distance>
+		<price>1.659</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>48.558930000000004</cost_def_curr>
+		<cost_pos_curr>48.558930000000004</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-05-28 19:13</refuelDate>
+		<quantity>31.65</quantity>
+		<distance>439</distance>
+		<price>1.499</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>47.44335</cost_def_curr>
+		<cost_pos_curr>47.44335</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-06-17 00:37</refuelDate>
+		<quantity>32.58</quantity>
+		<distance>388</distance>
+		<price>1.539</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>50.14062</cost_def_curr>
+		<cost_pos_curr>50.14062</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-06-24 18:22</refuelDate>
+		<quantity>27</quantity>
+		<distance>410</distance>
+		<price>1.569</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>42.363</cost_def_curr>
+		<cost_pos_curr>42.363</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-07-06 19:10</refuelDate>
+		<quantity>25.01</quantity>
+		<distance>366</distance>
+		<price>1.679</price>
+		<refuel_type>0</refuel_type>
+		<fuel_subtype>95</fuel_subtype>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>41.99179</cost_def_curr>
+		<cost_pos_curr>41.99179</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-07-22 16:44</refuelDate>
+		<quantity>26.17</quantity>
+		<distance>324</distance>
+		<price>1.579</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>41.322430000000004</cost_def_curr>
+		<cost_pos_curr>41.322430000000004</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-07-29 16:06</refuelDate>
+		<quantity>33.8</quantity>
+		<distance>475</distance>
+		<price>1.589</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>53.7082</cost_def_curr>
+		<cost_pos_curr>53.7082</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-08-11 22:24</refuelDate>
+		<quantity>31.03</quantity>
+		<distance>449</distance>
+		<price>1.579</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>true</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>48.99637</cost_def_curr>
+		<cost_pos_curr>48.99637</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-08-25 10:01</refuelDate>
+		<quantity>14.02</quantity>
+		<distance>208</distance>
+		<price>1.669</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>23.39938</cost_def_curr>
+		<cost_pos_curr>23.39938</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-08-25 10:02</refuelDate>
+		<quantity>20.9</quantity>
+		<distance>269</distance>
+		<price>1.579</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>33.001099999999994</cost_def_curr>
+		<cost_pos_curr>33.001099999999994</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-09-05 16:00</refuelDate>
+		<quantity>22.93</quantity>
+		<distance>336</distance>
+		<price>1.58</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>36.2294</cost_def_curr>
+		<cost_pos_curr>36.2294</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-09-11 16:37</refuelDate>
+		<quantity>28</quantity>
+		<distance>400</distance>
+		<price>1.609</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>45.052</cost_def_curr>
+		<cost_pos_curr>45.052</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-09-17 09:04</refuelDate>
+		<quantity>24.08</quantity>
+		<distance>333</distance>
+		<price>1.599</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>38.503919999999994</cost_def_curr>
+		<cost_pos_curr>38.503919999999994</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-09-25 14:30</refuelDate>
+		<quantity>32.82</quantity>
+		<distance>420</distance>
+		<price>1.499</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>49.19718</cost_def_curr>
+		<cost_pos_curr>49.19718</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-10-11 10:40</refuelDate>
+		<quantity>32.28</quantity>
+		<distance>435</distance>
+		<price>1.549</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>50.00172</cost_def_curr>
+		<cost_pos_curr>50.00172</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-11-10 14:10</refuelDate>
+		<quantity>29.27</quantity>
+		<distance>448</distance>
+		<price>1.469</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Autobahn</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>42.99763</cost_def_curr>
+		<cost_pos_curr>42.99763</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-12-01 00:14</refuelDate>
+		<quantity>30.9</quantity>
+		<distance>434</distance>
+		<price>1.489</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>46.0101</cost_def_curr>
+		<cost_pos_curr>46.0101</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-12-27 21:39</refuelDate>
+		<quantity>30.43</quantity>
+		<distance>308</distance>
+		<price>1.469</price>
+		<refuel_type>0</refuel_type>
+		<fuel_subtype>95</fuel_subtype>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>44.70167</cost_def_curr>
+		<cost_pos_curr>44.70167</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2013-12-27 21:41</refuelDate>
+		<quantity>22.82</quantity>
+		<distance>302</distance>
+		<price>1.499</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>34.20718</cost_def_curr>
+		<cost_pos_curr>34.20718</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-01-13 09:07</refuelDate>
+		<quantity>29.71</quantity>
+		<distance>400</distance>
+		<price>1.469</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>43.64399</cost_def_curr>
+		<cost_pos_curr>43.64399</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-01-25 09:07</refuelDate>
+		<quantity>25.11</quantity>
+		<distance>332</distance>
+		<price>1.469</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>36.88659</cost_def_curr>
+		<cost_pos_curr>36.88659</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-02-10 09:08</refuelDate>
+		<quantity>31.98</quantity>
+		<distance>415</distance>
+		<price>1.589</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>50.81622</cost_def_curr>
+		<cost_pos_curr>50.81622</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-02-28 18:50</refuelDate>
+		<quantity>31.91</quantity>
+		<distance>403</distance>
+		<price>1.489</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>47.51399000000001</cost_def_curr>
+		<cost_pos_curr>47.51399000000001</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-04-01 18:51</refuelDate>
+		<quantity>25.18</quantity>
+		<distance>331</distance>
+		<price>1.509</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>37.99662</cost_def_curr>
+		<cost_pos_curr>37.99662</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-04-22 18:52</refuelDate>
+		<quantity>23.39</quantity>
+		<distance>306</distance>
+		<price>1.539</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>0.9997997066994914</pos_curr_rate>
+		<cost_def_curr>35.99</cost_def_curr>
+		<cost_pos_curr>35.99721</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-05-05 13:51</refuelDate>
+		<quantity>31.02</quantity>
+		<distance>449</distance>
+		<price>1.579</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>0.9999881585722341</pos_curr_rate>
+		<cost_def_curr>48.98</cost_def_curr>
+		<cost_pos_curr>48.980579999999996</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-05-19 11:02</refuelDate>
+		<quantity>28.35</quantity>
+		<distance>391</distance>
+		<price>1.569</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>44.48115</cost_def_curr>
+		<cost_pos_curr>44.48115</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-06-02 01:52</refuelDate>
+		<quantity>30.64</quantity>
+		<distance>430</distance>
+		<price>1.609</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>49.29976</cost_def_curr>
+		<cost_pos_curr>49.29976</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-06-15 01:53</refuelDate>
+		<quantity>21.51</quantity>
+		<distance>416</distance>
+		<price>1.559</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>0.999878034561248</pos_curr_rate>
+		<cost_def_curr>33.53</cost_def_curr>
+		<cost_pos_curr>33.53409</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-06-27 12:17</refuelDate>
+		<quantity>26.58</quantity>
+		<distance>381</distance>
+		<price>1.599</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>42.501419999999996</cost_def_curr>
+		<cost_pos_curr>42.501419999999996</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-07-21 12:19</refuelDate>
+		<quantity>31.78</quantity>
+		<distance>520</distance>
+		<price>1.589</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>50.49842</cost_def_curr>
+		<cost_pos_curr>50.49842</cost_pos_curr>
+	</refuel>
+	<refuel>
+		<car_name>Ford Fiesta</car_name>
+		<refuelDate>2014-07-27 12:20</refuelDate>
+		<quantity>23.05</quantity>
+		<distance>362</distance>
+		<price>1.519</price>
+		<refuel_type>0</refuel_type>
+		<fuel_type>0</fuel_type>
+		<drive_type>Normal</drive_type>
+		<road_type>Gemischt</road_type>
+		<use_ac>true</use_ac>
+		<use_trailer>false</use_trailer>
+		<pos_curr>EUR</pos_curr>
+		<pos_curr_rate>1.0</pos_curr_rate>
+		<cost_def_curr>35.01295</cost_def_curr>
+		<cost_pos_curr>35.01295</cost_pos_curr>
+	</refuel>
+</mycar>
