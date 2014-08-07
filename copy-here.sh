@@ -7,3 +7,4 @@ do
 done
 git add --all MyCars
 git commit -a -m "latest my cars backup"
+git push
